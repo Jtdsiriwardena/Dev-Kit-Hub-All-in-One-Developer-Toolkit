@@ -27,7 +27,7 @@ export default function ProfilePage() {
 
     const fetchProfile = async () => {
       try {
-        const res = await fetch('http://localhost:3000/users/me', {
+        const res = await fetch('https://dev-kit-hub-all-in-one-developer-toolkit.onrender.com/users/me', {
           headers: { Authorization: `Bearer ${token}` },
         });
 
